@@ -22,13 +22,6 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-//    @PostMapping("/order")
-//    @ResponseStatus(HttpStatus.CREATED)
-//    public OrderResponse createOrder(@RequestBody Order order) {
-//
-//        return orderService.create(order);
-//
-//    }
 
     @PostMapping("/order")
     @ResponseStatus(HttpStatus.CREATED)

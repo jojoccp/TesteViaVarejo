@@ -1,0 +1,2 @@
+com/ViaVarejo/TesteViaVarejo/TesteViaVarejoApplicationTests.java
+ com.ViaVarejo.TesteViaVarejo.TesteViaVarejoApplicationTests

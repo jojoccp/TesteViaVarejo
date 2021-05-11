@@ -13,36 +13,6 @@ import java.util.List;
 public class OrderService {
 
 
-//    public OrderResponse create(Order order) {
-//
-//        int parcels = order.getPaymentsConditions().getParcels();
-//        double value = order.getProduct().getValue();
-//        double downPayment = order.getPaymentsConditions().getDownPayment();
-//        double selicRate = 0.0115;
-//
-//        double parcelValue = (value-downPayment)/parcels;
-//
-//        order.setProduct(order.getProduct());
-//        order.setPaymentsConditions(order.getPaymentsConditions());
-//
-////        return new OrderResponse(order.getPaymentsConditions().getParcels(), order.getProduct().getValue(), selicRate);
-//
-//
-//        if(parcels >= 6){
-//            parcelValue += parcelValue *= selicRate;
-//        } else {
-//            selicRate = 0;
-//        }
-//
-//        System.out.println(parcelValue);
-//
-//        return new OrderResponse(parcels, parcelValue, selicRate);
-//
-//    }
-
-
-
-
     public List<OrderResponse> create(Order order) {
 
         DecimalFormat df = new DecimalFormat("#,###.00");
@@ -74,7 +44,6 @@ public class OrderService {
 
             listar.add(novo);
 
-//            parcelValue = (value-downPayment)/parcels;
 
         }
 
