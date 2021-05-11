@@ -3,10 +3,7 @@ package com.ViaVarejo.TesteViaVarejo.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import javafx.scene.layout.BorderRepeat;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class OrderResponse {

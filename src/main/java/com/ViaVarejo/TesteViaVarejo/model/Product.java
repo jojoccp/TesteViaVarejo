@@ -1,9 +1,6 @@
 package com.ViaVarejo.TesteViaVarejo.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.stereotype.Component;
-
-import javax.persistence.Entity;
 
 
 public class Product {

@@ -1,12 +1,7 @@
 package com.ViaVarejo.TesteViaVarejo.controller;
 
-//import com.ViaVarejo.TesteViaVarejo.dto.OrderRequest;
 import com.ViaVarejo.TesteViaVarejo.dto.OrderResponse;
-//import com.ViaVarejo.TesteViaVarejo.dto.ProductRequest;
 import com.ViaVarejo.TesteViaVarejo.model.Order;
-import com.ViaVarejo.TesteViaVarejo.model.PaymentsConditions;
-import com.ViaVarejo.TesteViaVarejo.model.Product;
-//import com.ViaVarejo.TesteViaVarejo.service.OrderService;
 import com.ViaVarejo.TesteViaVarejo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
